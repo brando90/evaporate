@@ -3,6 +3,7 @@ keys=$(cat ~/data/openai_api_key.txt)
 # echo $keys
 
 cd ~/evaporate/evaporate
+sh ~/evaporate/install_deps.sh
 conda activate evaporate
 # conda activate maf
 
